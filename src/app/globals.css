@@ -134,4 +134,12 @@
   .animate-scroll-left {
     animation: scroll-left 20s linear infinite;
   }
+  
+  .group:hover .animate-scroll-left {
+    animation-play-state: paused;
+  }
+  
+  .pause-animation {
+    animation-play-state: paused !important;
+  }
 }
